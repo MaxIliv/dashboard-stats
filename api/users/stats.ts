@@ -19,6 +19,8 @@ export default async function handler(
     'https://dummyjson.com/users?limit=0'
   ).then((res) => res.json());
 
+  res.setHeader('Access-Control-Allow-Origin', '*'); // or specific origin
+
   res.setHeader(
     'Cache-Control',
     'public, s-maxage=300, stale-while-revalidate=600'
