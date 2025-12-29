@@ -5,64 +5,124 @@ const usersSorted: User[] = [
   {
     id: 1,
     age: 18,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
   {
     id: 2,
     age: 20,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
   {
     id: 3,
     age: 24,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
   {
     id: 4,
     age: 27,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
   {
     id: 5,
     age: 32,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
   {
     id: 6,
     age: 35,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
   {
     id: 7,
     age: 60,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
 ];
 const usersEvenSorted: User[] = [
   {
     id: 1,
     age: 18,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
   {
     id: 2,
     age: 20,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
   {
     id: 3,
     age: 24,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
   {
     id: 4,
     age: 27,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
   {
     id: 5,
     age: 32,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
   {
     id: 6,
     age: 35,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
   {
     id: 7,
     age: 60,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
   {
     id: 8,
     age: 80,
+    height: 0,
+    weight: 0,
+    email: '',
+    eyeColor: ''
   },
 ];
 
