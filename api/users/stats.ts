@@ -56,7 +56,7 @@ export default async function handler(
   _req: VercelRequest,
   res: VercelResponse
 ) {
-  let response: Response<User> = await fetchUsersData() as Response<User>;
+  let response: Response<User> = (await fetchUsersData()) as Response<User>;
 
   const medianAge = calculateMedianAge(response.users);
   const averageHeight = calculateAverage(
